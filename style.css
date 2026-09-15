@@ -1,0 +1,138 @@
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Step 14: ID selector */
+#main-heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Step 14: Class selector */
+.highlight {
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid orange;
+}
+
+/* Step 16: Div styling */
+.header {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.main-content {
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Step 17: Box Model */
+button {
+    padding: 10px 25px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Step 19: CSS sizing */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.my-photo {
+    width: 300px;
+    max-width: 50%;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form */
+input {
+    padding: 8px;
+}
+
+/* Step 18: Positioning */
+
+.position-static {
+    position: static;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.position-relative {
+    position: relative;
+    left: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.position-area {
+    position: relative;
+    height: 100px;
+    border: 2px dashed black;
+    margin: 20px 0;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Step 20: Float */
+
+.float-left {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 40%;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+    padding: 20px;
+}
